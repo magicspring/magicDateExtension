@@ -43,31 +43,31 @@
 
 ### How To use
 
-    **1)  GET CURRENT DATE AND/OR TIME WITH CUSTOM FORMAT**
+**1)  GET CURRENT DATE AND/OR TIME WITH CUSTOM FORMAT**
 
-      * currentDateTime(with stringFormat: String) -> String
+  * currentDateTime(with stringFormat: String) -> String
 
-            Example: Date().currentDateTime(with "dd/MM/yyyy")
+        Example: Date().currentDateTime(with "dd/MM/yyyy")
 
-    **2)  REFORMAT DATE OR DATE STRING TO ANOTHER DATE STRING FORMAT**
+**2)  REFORMAT DATE OR DATE STRING TO ANOTHER DATE STRING FORMAT**
 
-      * reFormat(with dateString: String, toFormat: String) -> String
+  * reFormat(with dateString: String, toFormat: String) -> String
 
-            Example: Date().reFormat(with "23-10-2018", toFormat: "dd/MM/yyyy")
+        Example: Date().reFormat(with "23-10-2018", toFormat: "dd/MM/yyyy")
 
-      * reFormat(with date: Date, toFormat: String) -> String
+  * reFormat(with date: Date, toFormat: String) -> String
 
-            Example: Date().reFormat(with Date, toFormat: "dd/MM/yyyy")
+        Example: Date().reFormat(with Date, toFormat: "dd/MM/yyyy")
 
-      * dateFrom(string: String) -> Date
+  * dateFrom(string: String) -> Date
 
-            Example: Date().dateFrom(string: "23/10/2018")
+        Example: Date().dateFrom(string: "23/10/2018")
 
-    **3)  CALCULATE ESTIMATE TIME WITH INPUT MINUTE**
+**3)  CALCULATE ESTIMATE TIME WITH INPUT MINUTE**
 
-      * estimateTime(min: Int, withFormat: String) -> String
+  * estimateTime(min: Int, withFormat: String) -> String
 
-            Example: Date().estimateTime(min: 20, withFormat: "dd/MM/yyyy HH:mm:ss") This will return current time + 20 minute as input format
+        Example: Date().estimateTime(min: 20, withFormat: "dd/MM/yyyy HH:mm:ss") This will return current time + 20 minute as input format
 
 
 ## License ##
